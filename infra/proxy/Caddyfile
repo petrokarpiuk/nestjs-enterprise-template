@@ -1,0 +1,25 @@
+auth.solidapp.com {
+	reverse_proxy :8080
+
+	log {
+		output file /var/log/caddy/auth.solidapp.com-access.log {
+			roll_size 1gb
+			roll_keep 5
+			roll_keep_for 720h
+			format json
+		}
+	}
+}
+
+api.solidapp.com {
+	reverse_proxy :8081
+
+	log {
+		output file /var/log/caddy/api.solidapp.com-access.log {
+			roll_size 1gb
+			roll_keep 5
+			roll_keep_for 720h
+			format json
+		}
+	}
+}
