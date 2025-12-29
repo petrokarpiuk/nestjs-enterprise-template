@@ -3,6 +3,7 @@
 A minimal yet production-ready template for building applications with NestJS, Keycloak authentication, and TypeORM.
 
 This template provides a solid foundation with essential enterprise features pre-configured, allowing you to focus on building your application rather than setting up infrastructure.
+
 ---
 
 ## ✨ Features
