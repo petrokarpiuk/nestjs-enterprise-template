@@ -48,7 +48,7 @@ npm run start:dev
 
 ---
 
-## 🔐 Configure Keycloak Secret
+## 🔐 Auth configuration - Keycloak Secret
 
 1. Go to [Keycloak Admin Console](http://localhost:8080/admin/master/console/)
 2. Login with credentials: `solid` / `solid`
